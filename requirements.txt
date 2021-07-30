@@ -1,0 +1,6 @@
+numpy
+vispy
+PyQt5
+pyglet
+pymunk
+tensorflow==2.2.0
