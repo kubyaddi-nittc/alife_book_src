@@ -1,6 +1,6 @@
 # 作って動かす ALife - 実装を通した人工生命モデル入門
 
-本リポジトリはオライリー・ジャパン発行書籍『[作って動かす ALife](https://www.oreilly.co.jp/books/9784873118475/)』のサポートサイトです。
+本リポジトリはオライリー・ジャパン発行書籍『[作って動かす ALife](https://www.oreilly.co.jp/books/9784873118475/)』のサポートサイトをクローンしたものです。
 
 * 書籍内に誤植などを見つけた方はこちら &rarr; [正誤表](https://github.com/alifelab/alife_book_src/wiki/%E6%AD%A3%E8%AA%A4%E8%A1%A8)
 
@@ -28,12 +28,12 @@
 ## 必要条件
 ソースコードの実行環境と必要なパッケージは以下です。
 
-本書全体
+レポジトリ全体
 
-* Python 3.6.3
-* NumPy  1.14.5
-* Vispy  0.5.3
-* PyQt  5.10.1
+* Python 3.8系
+* NumPy  1.21.1
+* Vispy  0.7.3
+* PyQt  5.15.4
 
 5章
 * Pyglet 1.3.2
@@ -47,9 +47,7 @@
 
 ## 推奨環境セットアップ方法
 
-1. anacondaのインストール
-
-https://www.anaconda.com/download/
+1. pyenv
 
 2. 必要なライブラリのインストール
 
@@ -76,6 +74,7 @@ kerasがインストール済みで、バックエンドをtensorflow以外に�
 
 詳しくは
 https://keras.io/ja/backend/
+注）KerasはTensorflowに取り込まれました。
 
 ## ライセンス
 
